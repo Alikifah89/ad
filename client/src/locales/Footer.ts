@@ -1,0 +1,1 @@
+<p className="text-sm text-gray-400">{t.footer.rights}</p>
