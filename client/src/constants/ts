@@ -1,0 +1,157 @@
+/**
+ * Al Doha Exchange - Iraq Location Information
+ * Company details, locations, and regional settings
+ */
+
+export const COMPANY_INFO = {
+  name: "Al Doha Exchange",
+  tagline: "Your Trusted Currency Partner in Iraq",
+  description: "Leading currency exchange service based in Baghdad, Iraq, providing competitive rates and secure transactions across the Middle East and beyond.",
+  location: "Baghdad, Iraq",
+  country: "Iraq",
+  founded: 2015,
+  employees: "500+",
+  transactions: "$2B+",
+  clients: "100K+",
+  countries: "50+",
+  support: "24/7",
+};
+
+export const OFFICE_LOCATIONS = [
+  {
+    city: "Baghdad",
+    country: "Iraq",
+    address: "Al-Mansour District, Baghdad",
+    phone: "+964 1 XXX XXXX",
+    email: "baghdad@aldohaexchange.com",
+    isPrimary: true,
+  },
+  {
+    city: "Basra",
+    country: "Iraq",
+    address: "Al-Ashar District, Basra",
+    phone: "+964 40 XXX XXXX",
+    email: "basra@aldohaexchange.com",
+    isPrimary: false,
+  },
+  {
+    city: "Erbil",
+    country: "Iraq",
+    address: "Gulan District, Erbil",
+    phone: "+964 66 XXX XXXX",
+    email: "erbil@aldohaexchange.com",
+    isPrimary: false,
+  },
+  {
+    city: "Doha",
+    country: "Qatar",
+    address: "West Bay, Doha",
+    phone: "+974 4 XXX XXXX",
+    email: "doha@aldohaexchange.com",
+    isPrimary: false,
+  },
+];
+
+export const MAJOR_CURRENCIES = [
+  { code: "IQD", name: "Iraqi Dinar", symbol: "ع.د", rate: 1, isLocal: true },
+  { code: "USD", name: "US Dollar", symbol: "$", rate: 0.00076 },
+  { code: "EUR", name: "Euro", symbol: "€", rate: 0.00070 },
+  { code: "GBP", name: "British Pound", symbol: "£", rate: 0.00060 },
+  { code: "AED", name: "UAE Dirham", symbol: "د.إ", rate: 0.0028 },
+  { code: "SAR", name: "Saudi Riyal", symbol: "﷼", rate: 0.0029 },
+  { code: "KWD", name: "Kuwaiti Dinar", symbol: "د.ك", rate: 0.0025 },
+  { code: "JOD", name: "Jordanian Dinar", symbol: "د.ا", rate: 0.0011 },
+  { code: "QAR", name: "Qatari Riyal", symbol: "ر.ق", rate: 0.0028 },
+  { code: "JPY", name: "Japanese Yen", symbol: "¥", rate: 0.113 },
+  { code: "CNY", name: "Chinese Yuan", symbol: "¥", rate: 0.0055 },
+  { code: "INR", name: "Indian Rupee", symbol: "₹", rate: 0.063 },
+];
+
+export const TESTIMONIALS_IRAQ = [
+  {
+    id: 1,
+    name: "محمد العراقي",
+    nameEn: "Mohammed Al-Iraqi",
+    company: "Baghdad Trading Company",
+    text: "Al Doha Exchange has been instrumental in our international business operations. Their competitive rates and fast processing have saved us thousands of dinars.",
+    rating: 5,
+    avatar: "ME",
+    location: "Baghdad",
+  },
+  {
+    id: 2,
+    name: "فاطمة الموسوي",
+    nameEn: "Fatima Al-Mousawi",
+    company: "Middle East Finance Group",
+    text: "Exceptional service and support! The team is always available to help with any currency exchange needs. Highly recommended for businesses in Iraq.",
+    rating: 5,
+    avatar: "FM",
+    location: "Basra",
+  },
+  {
+    id: 3,
+    name: "علي الحسيني",
+    nameEn: "Ali Al-Husseini",
+    company: "International Trading Corp",
+    text: "The best exchange rates I've found in the market. Their platform is user-friendly and the customer service is outstanding. Five stars!",
+    rating: 5,
+    avatar: "AH",
+    location: "Erbil",
+  },
+  {
+    id: 4,
+    name: "ليلى الدوسري",
+    nameEn: "Layla Al-Dosari",
+    company: "Global Investment Partners",
+    text: "Professional, reliable, and trustworthy. Al Doha Exchange has become our go-to partner for all currency conversion needs in the region.",
+    rating: 5,
+    avatar: "LD",
+    location: "Baghdad",
+  },
+];
+
+export const SERVICES_IRAQ = [
+  {
+    title: "Currency Exchange",
+    description: "Competitive rates for IQD and major international currencies with instant processing",
+    icon: "DollarSign",
+  },
+  {
+    title: "Money Transfer",
+    description: "Fast and secure international money transfers to and from Iraq",
+    icon: "Send",
+  },
+  {
+    title: "Corporate Solutions",
+    description: "Bulk currency exchange and hedging services for businesses",
+    icon: "Building2",
+  },
+  {
+    title: "Business Account",
+    description: "Dedicated account managers for corporate clients with special rates",
+    icon: "Briefcase",
+  },
+];
+
+export const FEATURES_IRAQ = [
+  {
+    title: "Competitive Rates",
+    description: "Best IQD exchange rates in Baghdad and across Iraq",
+    icon: "TrendingUp",
+  },
+  {
+    title: "Fast Transfers",
+    description: "Lightning-fast currency transfers within minutes",
+    icon: "Zap",
+  },
+  {
+    title: "24/7 Support",
+    description: "Round-the-clock customer support in Arabic and English",
+    icon: "Clock",
+  },
+  {
+    title: "Secure & Safe",
+    description: "Bank-level security with encrypted transactions",
+    icon: "Shield",
+  },
+];
